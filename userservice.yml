@@ -1,0 +1,7 @@
+example
+  property: "Hola Mundo Default - Servicio Usuarios"
+server:
+  port: 8080
+spring:
+  application:
+    name: userservice
