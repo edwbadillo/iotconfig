@@ -5,3 +5,11 @@ server:
 spring:
   application:
     name: userservice
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/spring_db_local"
+    username: spring
+    password: "{cipher}cb0150c25f04de27f5e9095f202119112f0b93ac5dda641379f37378269ac172"
